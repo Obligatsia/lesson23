@@ -1,0 +1,11 @@
+{
+  "globals": {
+    "$": false,
+    "jquery": false,
+    "eqeqeq" : true,
+    "latedef" : true,
+    "newcap" : true,
+    "asi" : false,
+    "trailing": true
+  }
+}

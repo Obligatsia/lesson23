@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<header>
+    <div id="red">
+        <div class="main">
+            <nav class="row">
+                <div id="logo" class="col-sm-1">
+                    <p>Startup</p>
+                </div>
+                <div id="menu" class="col-sm-6">
+                    <ul>
+                        <li><a href="#" class="col-sm-1">Home</a></li>
+                        <li><a href="#aboutUs" class="col-sm-1">About</a></li>
+                        <li><a href="#works" class="col-sm-1">Works</a></li>
+                        <li><a href="#line" class="col-sm-1">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="centerHead">
+                <h1>WELCOME TO START UP</h1>
+                <h3>Your Favourite Creative Agency Template</h3>
+                <a href="#aboutUs" class="white">GET STARTED</a>
+            </div>
+        </div>
+    </div>
+</header>
+<div id="aboutUs">
+    <div class="main">
+        <div class="center">
+            <h2>ABOUT US</h2>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur at autem
+                corporis cupiditate debitis delectus doloremque dolores dolorum eligendi eos eveniet id in ipsa
+                laboriosam
+                laudantium libero minus neque nobis nostrum pariatur perspiciatis praesentium quasi recusandae
+                repellendus
+                sed sequi similique sint sit suscipit tenetur vel veniam, voluptatem voluptates voluptatum.
+            </div>
+            <div class="col-sm-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur aut cum dolore
+                enim fuga fugiat illo illum inventore iure libero, nisi quaerat quam, quia recusandae, repellendus sit
+                ut
+                vero! Aliquid consequuntur cupiditate deleniti, dolore dolorem, ducimus eveniet excepturi inventore
+                iusto
+                molestiae non officia quaerat quasi quibusdam reiciendis sequi vel!
+            </div>
+        </div>
+        <div id="slider" class="row">
+            <div id="buttons">
+                <input type="button" value="<" id="leftBtn">
+                <input type="button" value=">" id="rightBtn">
+            </div>
+            <div class="col-sm-3 slide">
+                <img src="img/photo1.png">
+                <p>MD. KHALIL UDDIN</p>
+                <p>Head of Ideas</p>
+            </div>
+            <div class="col-sm-3 slide hidden">
+                <img src="img/photo2.png">
+                <p>RUBEL MIAH</p>
+                <p>Lead WordPress Developer</p>
+            </div>
+            <div class="col-sm-3 slide hidden">
+                <img src="img/photo3.png">
+                <p>SHAMIM MIA</p>
+                <p>Sr. Web Developer</p>
+            </div>
+            <div class="col-sm-3 slide hidden">
+                <img src="img/photo4.png">
+                <p>JOHN DOE</p>
+                <p>Front-end Developer</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="works" class="main">
+    <div class="center">
+        <h2>LATEST WORKS</h2>
+        <ul>
+            <li><a href="#" class="tab">All</a></li>
+            <li><a href="#" class="tab">Branding</a></li>
+            <li><a href="#" class="tab">Design</a></li>
+        </ul>
+    </div>
+    <div id="images" class="row">
+        <div class="col-sm-4 tabImg"><img src="img/img1.png"></div>
+        <div class="col-sm-4 tabImg"><img src="img/img2.png"></div>
+        <div class="col-sm-4 tabImg"><img src="img/img3.png"></div>
+        <div class="col-sm-4 tabImg"><img src="img/img4.png"></div>
+        <div class="col-sm-4 tabImg"><img src="img/img5.png"></div>
+        <div class="col-sm-4 tabImg"><img src="img/img6.png"></div>
+    </div>
+</div>
+<div id="line">
+    <div class="redBg row">
+        <div class="center col-sm-6">
+            <div class="modal fade" id="registration" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <form name="contactForm">
+                                <div class="row">
+                                    <input type="text" placeholder="YOUR NAME" class="col-sm-6" name = "name">
+                                    <input type="text" placeholder="YOUR E-MAIL" class="col-sm-6" name = "email">
+                                </div>
+                                <div class="row">
+                                    <input type="text" placeholder="YOUR SUBJECT" class="col-sm-6" name = "subject">
+                                    <input type="text" placeholder="COMPANY NAME" class="col-sm-6" name = "company">
+                                </div>
+                                <div class="row">
+                                    <textarea placeholder="WRITE YOUR MESSAGE" class="col-sm-12" rows="5" name="message"></textarea>
+                                </div>
+                                <div class="row">
+                                    <span class="info"></span>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn" id="saveForm">Send message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2>Do you like OUR WORK so far? Let's talk about YOUR PROJECT!</h2>
+            <button type="button" id="modalForm" class="white" data-toggle="modal" data-target="#registration">GET IN TOUCH</button>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="center">
+        <div class="icons">
+            <img src="img/twit.png">
+            <img src="img/twit.png">
+            <img src="img/twit.png">
+            <img src="img/twit.png">
+        </div>
+        <p>----</p>
+        <p>© 2015 Startup, Designed by ShapedTheme</p>
+    </div>
+</footer>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="dist/dist.js"></script>
+</body>
+</html>

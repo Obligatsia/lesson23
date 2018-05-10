@@ -1,0 +1,189 @@
+/*---------------------------------Header-----------------------------------------------*/
+.hidden{
+    display: none;
+}
+.main{
+    width: 1140px;
+    margin: 0 auto;
+}
+#red{
+    background-color: rgba(0, 0, 0, 0.48);
+}
+header{
+    background-image: url(./img/header.png);
+    color: #fff;
+}
+nav{
+    justify-content: space-between;
+    padding-top: 40px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-end;
+}
+nav ul a{
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    transition: border-color 1s;
+    margin: 0 10px;
+}
+nav ul a:hover{
+    color: #fff;
+    text-decoration: none;
+    border-color: #fff;
+}
+#centerHead{
+    padding: 220px 0 253px 0;
+    text-align: center;
+}
+#centerHead h3{
+    padding: 30px 0 45px 0;
+    font-weight: bold;
+}
+.white{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    background: none;
+    display: inline-block;
+    transition: background-color 1s;
+}
+.white:hover{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: #0808087a;
+}
+/*---------------------------------About Us-----------------------------------------------*/
+#aboutUs{
+    padding: 100px 0;
+    background-color: #f8f8f8;
+}
+.center{
+    text-align: center;
+}
+#aboutUs .row{
+    padding-top: 60px;
+}
+#slider{
+    justify-content: center;
+    position: relative;
+}
+#buttons{
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    display: flex;
+    justify-content:space-between;
+    z-index: 1;
+}
+#buttons input[type="button"]{
+    font-weight: bold;
+    color: #fff;
+    background-color: #382b2c;
+    border: none;
+    padding: 5px 12px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 1s;
+}
+#buttons input[type="button"]:hover{
+    background-color: #e66060;
+}
+#slider .col-sm-3{
+    text-align: center;
+}
+#slider img{
+    margin-bottom: 16px;
+}
+/*---------------------------------Works-----------------------------------------------*/
+#works{
+    padding: 100px 0;
+}
+#works ul{
+    padding-left: 0;
+    margin-top: 40px;
+}
+#works a{
+    text-decoration: none;
+    color: #000;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+    padding: 5px 20px;
+    transition: border-color 1s;
+}
+#works a:hover{
+    border-color: #b8b9c3;
+}
+#works li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+#images{
+    margin-top: 40px;
+}
+#images div{
+    margin: 15px 0;
+}
+/*---------------------------------Line-----------------------------------------------*/
+#line{
+    background-image: url(./img/redLine.png);
+    color: #fff;
+}
+.redBg{
+    background-color: rgba(164, 53, 25, 0.51);
+    padding: 90px 0;
+    justify-content: center;
+}
+.redBg h2{
+    line-height: 1.5;
+    padding-bottom: 45px;
+    margin-bottom: 0;
+}
+#modalForm{
+    outline:none;
+}
+.modal-body .row{
+    width: 70%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.modal-body input[type="text"],
+.modal-body textarea{
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.modal-content button:hover{
+    border-color: #ce4e42;
+}
+.modal-content button{
+    background-color: #fff;
+    border: 2px solid #000;
+    max-width: 50%;
+    transition: border-color 1s;
+}
+.modal-content button:focus{
+    box-shadow: 0 0 0 0.2rem rgba(255, 134, 102, 0.25);
+}
+.modal-body span{
+    color: #000;
+    max-width: 100%;
+    margin-top: 10px;
+}
+.row .error{
+    color: red;
+    font-weight: bold;
+}
+/*---------------------------------Footer-----------------------------------------------*/
+footer{
+    background-color: #c0301c;
+    padding: 80px 0;
+    color: #fff;
+}
+.icons{
+    padding-bottom: 16px;
+}
